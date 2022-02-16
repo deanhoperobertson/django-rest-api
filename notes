@@ -1,0 +1,6 @@
+pip install django
+pip install djangorestframework
+django-admin startproject djangoapi
+python manage.py migrate
+python manage.py runserver
+python manage.py startapp courses
